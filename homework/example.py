@@ -5,8 +5,6 @@
 import linear_regression  # type: ignore
 import pandas as pd  # type: ignore
 
-
-
 def main():
     """Main function."""
 

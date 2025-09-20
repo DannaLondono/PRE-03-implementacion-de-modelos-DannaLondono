@@ -4,7 +4,6 @@ from tqdm import tqdm  # type: ignore
 class LinearRegression:
     """Basic linear regression implementation."""
 
-
     def __init__(self, num_epochs=100, learning_rate=0.01):
         self.coefs_ = None
         self.intercept_ = None
