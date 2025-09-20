@@ -1,4 +1,3 @@
-
 import numpy as np
 from tqdm import tqdm  # type: ignore
 
@@ -39,5 +38,5 @@ class LinearRegression:
 
     def predict(self, X):
         """Predict the target for the provided data."""
-        return np.matmul(X, self.coefs_) + self.intercept_      
+        return np.matmul(X, self.coefs_) + self.intercept_ 
       
